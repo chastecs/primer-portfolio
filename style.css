@@ -1,0 +1,99 @@
+ @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
+
+
+body{font-family: 'Unbounded', cursive;
+    background: #3494E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EC6EAD, #3494E6);} /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    
+.menu{text-align: center;}
+    
+.presentacion_pagina{text-align: center;
+border: 3px groove black;
+width: 700px;
+border-radius: 10px;
+text-shadow: rgb(230, 87, 170)  1px 0 3px;}
+
+
+.nive_item{
+    display: block;
+    margin:1%;
+    line-height: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    padding: 1%;
+    backdrop-filter: blur(2px);
+    background-color: transparent;
+    border: 3px groove rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 280px;
+    height: 272px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+a{text-decoration: none;
+color: black;}
+
+.seccion{border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 7%;
+    padding: 4%;}
+
+#encabezado img{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.trabajo img{
+    width: 500px;
+    border: 10px double #0088ff;
+    text-align: center;
+}
+
+.ability img{width: 500px;
+height: 300px;}
+
+#contact form input{
+    margin: auto;
+margin-top: 2%;
+width: 40%;
+background-color: transparent;
+border-style: none;
+border-bottom: 1px solid black;
+padding-top: 2%;}
+
+#contact form textarea{margin: auto;
+    margin-top: 2%;
+    width: 39%;
+    background-color: transparent;
+    border-color: black;
+    padding-top: 2%;}
+
+#contact form input:focus{ outline: none;}
+
+
+footer{
+    padding: 1%;
+    backdrop-filter: blur(2px);
+    background-color: transparent;
+    border: 3px groove rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    text-align: center;
+    width: 39%;
+    margin: auto;}
+
+
+
+
